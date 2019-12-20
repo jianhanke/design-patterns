@@ -19,7 +19,22 @@
 	    }
 }
 
-class WorkerPool implements Countable{
+// class WorkerPool implements Countable{
 
+// }
+
+class Person{
+	public function test01(){
+
+	}
 }
 
+$flag=new Person();
+$flag=null;
+
+var_dump(is_null($flag));
+if($flag){
+	echo "捡来了";
+}else{
+	echo "下面的";
+}
